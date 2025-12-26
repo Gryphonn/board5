@@ -1,0 +1,6 @@
+{
+  "name": "@tldraw/render",
+  "packageManager": "yarn@4.12.0",
+  "main": "./src/index.ts",
+  "type": "module"
+}

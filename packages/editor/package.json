@@ -1,0 +1,9 @@
+{
+  "name": "@tldraw/editor",
+  "packageManager": "yarn@4.12.0",
+  "main": "./src/index.ts",
+  "type": "module",
+  "dependencies": {
+    "eventemitter3": "^5.0.1"
+  }
+}
