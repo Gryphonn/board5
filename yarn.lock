@@ -2600,6 +2600,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tldraw/editor@workspace:packages/editor"
   dependencies:
+    "@tldraw/tlschema": "workspace:*"
     eventemitter3: "npm:^5.0.1"
   languageName: unknown
   linkType: soft
@@ -2751,7 +2752,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tldraw/tlschema@workspace:packages/tlschema":
+"@tldraw/tlschema@workspace:*, @tldraw/tlschema@workspace:packages/tlschema":
   version: 0.0.0-use.local
   resolution: "@tldraw/tlschema@workspace:packages/tlschema"
   dependencies:

@@ -4,6 +4,7 @@
   "main": "./src/index.ts",
   "type": "module",
   "dependencies": {
+    "@tldraw/tlschema": "workspace:*",
     "eventemitter3": "^5.0.1"
   }
 }
